@@ -1,7 +1,3 @@
-:root {
-    
-}
-
 body {
     margin: 0;
 }
@@ -47,12 +43,12 @@ h1 {
     padding-bottom: 0;
     color: #FFF;
     font-size: 2em;
-    animation: symbolTurn 1.3s 1;
+    animation: symbolTurn 1s 1;
     /* display: inline; */
 }
 
 .symbol2 {
-    animation: symbolTurn2 1.8s 1;
+    animation: symbolTurn2 1.5s 1;
 }
 .symbol3 {
     animation: symbolTurn3 2s 1;
