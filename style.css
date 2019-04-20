@@ -1,0 +1,100 @@
+:root {
+    
+}
+
+body {
+    margin: 0;
+}
+
+
+.banner {
+    background-color: rgb(34, 33, 33);
+    height: 220px;
+}
+
+h1, h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    padding-top: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    text-shadow: 1px 1px 5px rgba(245, 245, 245, 0.425);
+}
+
+.symbolWrap {
+    position: relative;
+    top: 20px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.symbol {
+    width: 35px;
+    height: 50px;
+    background-color: rgb(126, 20, 38);
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 7px;
+    padding-bottom: 0;
+    color: #FFF;
+    font-size: 2em;
+    animation: symbolTurn 1.3s 1;
+    /* display: inline; */
+}
+
+.symbol2 {
+    animation: symbolTurn2 1.8s 1;
+}
+.symbol3 {
+    animation: symbolTurn3 2s 1;
+}
+.symbol4 {
+    animation: symbolTurn4 2.2s 1;
+}
+
+@keyframes symbolTurn {
+    from {transform: scale(0,1)}
+    to {transform: scale(1,1)}
+}
+
+@keyframes symbolTurn2 {
+    0% {transform: scale(0,1)}
+    25% {transform: scale(0,1)}
+    100% {transform: scale(1,1)}
+}
+
+@keyframes symbolTurn3 {
+    0% {transform: scale(0,1)}
+    50% {transform: scale(0,1)}
+    100% {transform: scale(1,1)}
+}
+
+@keyframes symbolTurn4 {
+    0% {transform: scale(0,1)}
+    75% {transform: scale(0,1)}
+    100% {transform: scale(1,1)}
+}
+
+h4 {
+    letter-spacing: 2px;
+}
+
+
+.main {
+    
+}
+
+
+button {
+    padding: 10px 15px;
+    font-size: 1.2em;
+}
